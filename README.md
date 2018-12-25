@@ -38,13 +38,15 @@ Pada project akhir ini kami merancang dan membuat sebuah program pengatur keuang
 Bagian-bagian program:
 
  -Struct
- 
- 
- -Array
- 
- 
+
+ <img width="292" alt="9" src="https://user-images.githubusercontent.com/44502595/50424322-786b7100-0894-11e9-9f39-aa7346a0509d.PNG">
+
  -Linked list
  
+ <img width="487" alt="10" src="https://user-images.githubusercontent.com/44502595/50424348-f2035f00-0894-11e9-80c5-bf60fa6093e0.PNG">
  
  -Pointer
  
+ <img width="293" alt="11" src="https://user-images.githubusercontent.com/44502595/50424355-09dae300-0895-11e9-9e66-0c3f3a82d985.PNG">
+
+    Sekian project akhir dari kelompok kami, semoga bisa bermanfaat bagi para user.
