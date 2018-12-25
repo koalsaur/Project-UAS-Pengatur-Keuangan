@@ -15,7 +15,6 @@ list *head;
 void Print(list *r);
 void Add(list *temp);
 void Delete(list *temp);
-void Insert(list *temp);
 void judul();
 void ErrorMessages();
 void keluar();
@@ -182,44 +181,6 @@ void ErrorMessages()
 	
 	system("pause");
 
-}
-
-void Insert(list *temp)
-{
-    int i, pos;
-    list *left,*right;
-    
-    temp=(list *)malloc(sizeof(list));
-    
-	judul();
-	printf("\nInsert");
-	printf("\n======\n");
-	printf("Nama Pengeluaran	: "); scanf(" %[^\n]s", temp->nama);
-	printf("Besar			: "); scanf(" %d", temp->jumlah);
-	printf("Position	: "); scanf("%d", &pos);
-    
-    if(head == NULL)
-    {
-    	head=temp;
-    	head->next_Data=NULL;
-	}
-    else
-    {
-		right=head;
-   		for(i=1;i<pos;i++)
-		{
-    		left=right;
-			right=right->next_Data;
-			if(right == NULL)
-			{
-				break;
-			}
-		}
-		left->next_Data=temp;
-		left=temp;
-    	left->next_Data=right;
-    	return;
-	}
 }
 void bantuan(){
 	system("cls");
